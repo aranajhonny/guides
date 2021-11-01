@@ -1,0 +1,72 @@
+{
+    "dependencies": {
+        "clock": "sys-clock:"
+    },
+    "config": {},
+    "schema": {
+        "types": [
+            {
+                "name": "Root",
+                "fields": [
+                    {
+                        "name": "helloWorld",
+                        "type": "String",
+                        "params": []
+                    },
+                    {
+                        "name": "counter",
+                        "type": "Int",
+                        "params": []
+                    },
+                    {
+                        "name": "sum",
+                        "type": "SumResult",
+                        "params": [
+                            {
+                                "name": "a",
+                                "type": "Int"
+                            },
+                            {
+                                "name": "b",
+                                "type": "Int"
+                            }
+                        ]
+                    }
+                ],
+                "actions": [
+                    {
+                        "name": "setCheersName",
+                        "type": "Void",
+                        "params": [
+                            {
+                                "name": "name",
+                                "type": "String"
+                            }
+                        ]
+                    },
+                    {
+                        "name": "startSumTimer",
+                        "type": "String"
+                    }
+                ]
+            },
+            {
+                "name": "SumResult",
+                "fields": [
+                    {
+                        "name": "a",
+                        "type": "Int"
+                    },
+                    {
+                        "name": "b",
+                        "type": "Int"
+                    },
+                    {
+                        "name": "result",
+                        "type": "Int"
+                    }
+                ]
+            }
+        ]
+    }
+}
