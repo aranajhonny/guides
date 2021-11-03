@@ -9,7 +9,7 @@
                 "name": "Root",
                 "fields": [
                     {
-                        "name": "helloWorld",
+                        "name": "greet",
                         "type": "String",
                         "params": []
                     },
