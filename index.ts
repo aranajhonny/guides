@@ -1,11 +1,12 @@
 export let cheersName = "Membrane";
 export let counter = 0;
 
+// export const state = {
+//     cheersName: "Membrane"
+// }
+
 // Uncomment me to get stateful super powers
 // export const reset = ({ previous }) => {
-//     if (previous.cheersName) {
-//         cheersName = previous.cheersName;
-//     }
 //     if (previous.counter) {
 //         counter = previous.counter;
 //     }
