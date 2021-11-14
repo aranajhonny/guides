@@ -1,0 +1,27 @@
+{
+    "dependencies": {
+        "clock": "sys-clock:"
+    },
+    "config": {},
+    "schema": {
+        "types": [
+            {
+                "name": "Root",
+                "fields": [
+                    {
+                        "name": "counter",
+                        "type": "Int",
+                        "params": []
+                    }
+                
+                ],
+                "actions": [
+                    {
+                        "name": "startTimer",
+                        "type": "String"
+                    }
+                ]
+            }
+        ]
+    }
+}

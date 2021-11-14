@@ -1,6 +1,5 @@
 {
     "dependencies": {
-        "clock": "sys-clock:"
     },
     "config": {},
     "schema": {
@@ -8,16 +7,6 @@
             {
                 "name": "Root",
                 "fields": [
-                    {
-                        "name": "greet",
-                        "type": "String",
-                        "params": []
-                    },
-                    {
-                        "name": "counter",
-                        "type": "Int",
-                        "params": []
-                    },
                     {
                         "name": "sum",
                         "type": "SumResult",
@@ -31,22 +20,6 @@
                                 "type": "Int"
                             }
                         ]
-                    }
-                ],
-                "actions": [
-                    {
-                        "name": "setCheersName",
-                        "type": "Void",
-                        "params": [
-                            {
-                                "name": "name",
-                                "type": "String"
-                            }
-                        ]
-                    },
-                    {
-                        "name": "startSumTimer",
-                        "type": "String"
                     }
                 ]
             },
