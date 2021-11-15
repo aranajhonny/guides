@@ -1,0 +1,29 @@
+{
+  "dependencies": {
+  },
+  "schema": {
+    "types": [
+      {
+        "name": "Root",
+        "fields": [
+          {
+            "name": "greet",
+            "type": "String"
+          }
+        ],
+        "actions": [
+          {
+            "name": "setName",
+            "type": "Void",
+            "params": [
+              {
+                "name": "name",
+                "type": "String"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "dependencies": { },
+  "schema": {
+    "types": [
+      {
+        "name": "Root",
+        "fields": [
+          {
+            "name": "sum",
+            "type": "SumResult",
+            "params": [
+              { "name": "a", "type": "Int" },
+              { "name": "b", "type": "Int" }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "SumResult",
+        "fields": [
+          { "name": "a", "type": "Int" },
+          { "name": "b", "type": "Int" },
+          { "name": "result", "type": "Int" }
+        ]
+      }
+    ]
+  }
+}

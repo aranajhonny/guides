@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "clock": "sys-clock:"
+  },
+  "schema": {
+    "types": [
+      {
+        "name": "Root",
+        "fields": [
+          {
+            "name": "counter",
+            "type": "Int"
+          }
+        ]
+      }
+    ]
+  }
+}
